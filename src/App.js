@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import ServicesWeOffer from './components/services/ServicesWeOffer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Moksha Conglomerate</h1>
+        <header>Moksha Conglomerate</header>
+        <ServicesWeOffer />
+        <footer>developed by @mokshaconglomerate</footer>
       </header>
     </div>
   );
