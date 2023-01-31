@@ -1,5 +1,5 @@
 import React from "react";
-import BookAnEvent from "../BookAnEvent";
+import BookAnEvent from "./BookAnEvent";
 import OrderPhotoGifts from "../OrderPhotoGifts";
 import WorkShowCase from "../WorkShowCase";
 
@@ -7,9 +7,9 @@ import WorkShowCase from "../WorkShowCase";
 const ServicesWeOffer = () => {
     return (
         <div>
-            <WorkShowCase />
             <BookAnEvent />
-            <OrderPhotoGifts />
+            <WorkShowCase />
+            {/* <OrderPhotoGifts /> */}
         </div>
     )
 }

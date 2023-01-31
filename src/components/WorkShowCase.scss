@@ -1,0 +1,21 @@
+.showcase-items {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin: 10px;
+    margin-left: 130px;
+    .carousel {
+        width: 100%;
+        .carousel-item {
+            width: 100%;
+            img {
+                height: 400px;
+                //width: 100%;
+            }
+            .carousel-caption {
+                display: none;
+            }
+        }
+    }
+    
+}

@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import ServicesWeOffer from './components/services/ServicesWeOffer';
+import GlobalNavigations from './components/navigations/GlobalNavigations.tsx';
+import ServicesWeOffer from './components/services/ServicesWeOffer.tsx';
+import FooterInfo from './components/footerInfo/FooterInfo.tsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <header>Moksha Conglomerate</header>
+      {/* <header className="App-header"> */}
+        <GlobalNavigations />
         <ServicesWeOffer />
-        <footer>developed by @mokshaconglomerate</footer>
-      </header>
+        <FooterInfo />
+      {/* </header> */}
     </div>
   );
 }
