@@ -1,0 +1,60 @@
+{
+    "services": [
+        {
+            "name": "Events",
+            "variant": "dark",
+            "styels": {
+                "width": "18rem",
+                "className": "mb-2"
+            },
+            "events": [
+                {
+                    "name": "Wedding Photography"
+                },
+                {
+                    "name": "Pre Wedding Shoot"
+                },
+                {
+                    "name": "Maternity Shoots"
+                },
+                {
+                    "name": "Corporate Events"
+                },
+                {
+                    "name": "Portfolio Photoshoot"
+                }
+            ],
+            "btn": {
+                "value": "Book An Event"
+            }
+        },
+        {
+            "name": "Photo Gifts",
+            "variant": "dark",
+            "styels": {
+                "width": "18rem",
+                "className": "mb-2"
+            },
+            "events": [
+                {
+                    "name": "Wedding Photography"
+                },
+                {
+                    "name": "Pre Wedding Shoot"
+                },
+                {
+                    "name": "Maternity Shoots"
+                },
+                {
+                    "name": "Corporate Events"
+                },
+                {
+                    "name": "Portfolio Photoshoot"
+                }
+            ],
+            "btn": {
+                "value": "Order Photo Gifts"
+            }
+        }
+    ]
+}
