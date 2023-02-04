@@ -5,7 +5,7 @@ import './DeveloperInfo.scss';
 const DeveloperInfo = () => {
     return (
         <div className="developer-info">
-            developed by <b>@mokshaconglomerate</b>
+            Moksha Conglomerate © 2023. All rights reserved.
         </div>
     )
 }

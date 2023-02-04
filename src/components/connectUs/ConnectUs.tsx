@@ -9,7 +9,7 @@ const ConnectUs = () => {
                 <h5>CONNECT US</h5>
                 <div className="social-media-icons">
                     <a
-                    href=""
+                    href="https://www.instagram.com/navnkairamkonda/"
                     className=""
                     target="_blank"
                     rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const ConnectUs = () => {
                         </svg>
                     </a>
                     <a
-                    href=""
+                    href="https://twitter.com/NavnKairamkonda"
                     className=""
                     target="_blank"
                     rel="noopener noreferrer"
