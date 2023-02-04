@@ -37,19 +37,40 @@
             },
             "events": [
                 {
-                    "name": "Wedding Photography"
+                    "name": "T-Shirt Printing"
                 },
                 {
-                    "name": "Pre Wedding Shoot" 
+                    "name": "Mug/Magic Printing"
                 },
                 {
-                    "name": "Maternity Shoots"
+                    "name": "Backlight Frames"
                 },
                 {
-                    "name": "Corporate Events"
+                    "name": "Collage Frames" 
                 },
                 {
-                    "name": "Portfolio Photoshoot"
+                    "name": "Mosaic"
+                },
+                {
+                    "name": "Acrylic Print"
+                },
+                {
+                    "name": "3D Crystal"
+                },
+                {
+                    "name": "Wooden Cutout" 
+                },
+                {
+                    "name": "Magic Pillows"
+                },
+                {
+                    "name": "Magic Mirrors"
+                },
+                {
+                    "name": "Rotating Lamps"
+                },
+                {
+                    "name": "Mobile Pouch"
                 }
             ],
             "btn": {

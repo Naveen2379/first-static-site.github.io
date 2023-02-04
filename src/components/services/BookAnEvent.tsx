@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import './BookAnEvent.scss';
 import data from '../../configJSON/bookEventGifts.json';
 import eventsImg from '../../images/eventImg.jpg';
@@ -38,11 +38,19 @@ const BookAnEvent = () => {
                             <Card.Img variant="top" alt="eventsPhto" src={eventsImg} />
                             <Card.Body>
                                 {/* <Card.Title>{}</Card.Title> */}
-                                <Card.Text>
-                                {events.map( (event) => {
-                                    return <h6>{event.name}</h6>
-                                })}
-                                </Card.Text>
+                                {/* <Card.Text> */}
+                                {/* <ListGroup>
+                                    {events.map( (event) => {
+                                        return <ListGroupItem className="cardTest">{event.name}</ListGroupItem>
+                                    })}
+                                </ListGroup> */}
+                                <ul className={`${events.length > 5 ? "itemListColumn" : "itemList"}`}>
+                                    {events.map( (event) => {
+                                        return <li className="">{event.name}</li>
+                                    })}
+                                </ul>
+                                
+                                {/* </Card.Text> */}
                                 <Button variant="primary">{btn.value}</Button>
                             </Card.Body>
                         </Card>
